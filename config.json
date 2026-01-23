@@ -169,6 +169,18 @@
         }
       ]
     },
+    "do": {
+      "enabled": false,
+      "description": "7-phase feature development workflow with codeagent orchestration",
+      "operations": [
+        {
+          "type": "copy_dir",
+          "source": "skills/do",
+          "target": "skills/do",
+          "description": "Install do skill with hooks"
+        }
+      ]
+    },
     "course": {
       "enabled": false,
       "description": "课程开发工作流，包含 dev、产品需求和测试用例技能",
